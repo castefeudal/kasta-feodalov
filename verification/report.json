@@ -1,0 +1,566 @@
+{
+  "date": "2026-09-05",
+  "tool": "Playwright / Chromium + axe-core + html-validate",
+  "tests": [
+    {
+      "name": "HTML: recommended validation, no errors or warnings",
+      "passed": true,
+      "details": {
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "name": "Document language and single primary heading",
+      "passed": true
+    },
+    {
+      "name": "All requested sections exist",
+      "passed": true
+    },
+    {
+      "name": "Seven manifesto theses",
+      "passed": true
+    },
+    {
+      "name": "Eight FAQ answers",
+      "passed": true
+    },
+    {
+      "name": "Three local typefaces loaded",
+      "passed": true
+    },
+    {
+      "name": "Local anchors and SVG references resolve",
+      "passed": true
+    },
+    {
+      "name": "All IDs are unique",
+      "passed": true
+    },
+    {
+      "name": "axe WCAG 2.2 AA: desktop, initial state",
+      "passed": true,
+      "details": {
+        "violations": [],
+        "passes": 32,
+        "manualReviewItems": 1
+      }
+    },
+    {
+      "name": "Responsive 360 × 800: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 360,
+        "scrollWidth": 360,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 375 × 812: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 375,
+        "scrollWidth": 375,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 390 × 844: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 428 × 926: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 428,
+        "scrollWidth": 428,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 560 × 800: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 560,
+        "scrollWidth": 560,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 600 × 900: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 600,
+        "scrollWidth": 600,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 760 × 900: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 760,
+        "scrollWidth": 760,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 768 × 1024: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 820 × 1180: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 820,
+        "scrollWidth": 820,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 980 × 900: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 980,
+        "scrollWidth": 980,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 981 × 900: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 981,
+        "scrollWidth": 981,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 1024 × 768: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 1280 × 720: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 1440 × 1000: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Responsive 1920 × 1080: no horizontal text overflow",
+      "passed": true,
+      "details": {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "overflow": []
+      }
+    },
+    {
+      "name": "Desktop anchor navigation",
+      "passed": true
+    },
+    {
+      "name": "Header becomes sticky and reading indicator advances",
+      "passed": true
+    },
+    {
+      "name": "Tabs: pointer selection changes the visible panel",
+      "passed": true
+    },
+    {
+      "name": "Tabs: Right Arrow selects and focuses next tab",
+      "passed": true
+    },
+    {
+      "name": "Tabs: End selects last tab",
+      "passed": true
+    },
+    {
+      "name": "Tabs: Home returns to first tab",
+      "passed": true
+    },
+    {
+      "name": "FAQ: item opens",
+      "passed": true
+    },
+    {
+      "name": "FAQ: opening another closes the first",
+      "passed": true
+    },
+    {
+      "name": "FAQ: keyboard toggle",
+      "passed": true
+    },
+    {
+      "name": "Quote carousel advances",
+      "passed": true
+    },
+    {
+      "name": "Quote carousel wraps backwards",
+      "passed": true
+    },
+    {
+      "name": "Editorial dialog opens: article-morning",
+      "passed": true
+    },
+    {
+      "name": "Editorial text is substantive: article-morning",
+      "passed": true
+    },
+    {
+      "name": "Escape closes and restores focus: article-morning",
+      "passed": true
+    },
+    {
+      "name": "Editorial dialog opens: article-ownership",
+      "passed": true
+    },
+    {
+      "name": "Editorial text is substantive: article-ownership",
+      "passed": true
+    },
+    {
+      "name": "Escape closes and restores focus: article-ownership",
+      "passed": true
+    },
+    {
+      "name": "Editorial dialog opens: article-word",
+      "passed": true
+    },
+    {
+      "name": "Editorial text is substantive: article-word",
+      "passed": true
+    },
+    {
+      "name": "Escape closes and restores focus: article-word",
+      "passed": true
+    },
+    {
+      "name": "axe WCAG 2.2 AA: open editorial dialog",
+      "passed": true,
+      "details": {
+        "violations": [],
+        "passes": 16,
+        "manualReviewItems": 0
+      }
+    },
+    {
+      "name": "Dialog-to-page CTA closes reader and navigates",
+      "passed": true
+    },
+    {
+      "name": "Form rejects an empty submission with five field errors",
+      "passed": true
+    },
+    {
+      "name": "Validation focuses first erroneous field",
+      "passed": true
+    },
+    {
+      "name": "Telegram validation rejects malformed contact",
+      "passed": true
+    },
+    {
+      "name": "Character counter reflects the input",
+      "passed": true
+    },
+    {
+      "name": "Honor code opens from application",
+      "passed": true
+    },
+    {
+      "name": "Valid form creates a local result",
+      "passed": true
+    },
+    {
+      "name": "Generated text includes every answer and code agreement",
+      "passed": true
+    },
+    {
+      "name": "Result explicitly states it has not been sent",
+      "passed": true
+    },
+    {
+      "name": "Application processing makes zero network requests",
+      "passed": true
+    },
+    {
+      "name": "Telegram link contains the exact application text, without invented recipient",
+      "passed": true
+    },
+    {
+      "name": "Copy action gives actual success or an honest manual fallback",
+      "passed": true
+    },
+    {
+      "name": "Download is a complete UTF-8 Russian text file",
+      "passed": true,
+      "details": {
+        "filename": "kasta-feodalov-application.txt",
+        "bytes": 693
+      }
+    },
+    {
+      "name": "axe WCAG 2.2 AA: prepared application",
+      "passed": true,
+      "details": {
+        "violations": [],
+        "passes": 31,
+        "manualReviewItems": 1
+      }
+    },
+    {
+      "name": "Editing restores all previous values",
+      "passed": true
+    },
+    {
+      "name": "User input is rendered as text, never injected HTML",
+      "passed": true
+    },
+    {
+      "name": "No cookies or browser persistence of application data",
+      "passed": true
+    },
+    {
+      "name": "Reload clears locally prepared answers",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens with correct ARIA state",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu traps keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "axe WCAG 2.2 AA: open mobile menu",
+      "passed": true,
+      "details": {
+        "violations": [],
+        "passes": 15,
+        "manualReviewItems": 1
+      }
+    },
+    {
+      "name": "Mobile navigation closes menu, unlocks body, and follows anchor",
+      "passed": true
+    },
+    {
+      "name": "Escape closes mobile menu and restores trigger",
+      "passed": true
+    },
+    {
+      "name": "axe WCAG 2.2 AA: 360 px mobile",
+      "passed": true,
+      "details": {
+        "violations": [],
+        "passes": 32,
+        "manualReviewItems": 1
+      }
+    },
+    {
+      "name": "IntersectionObserver reveals content on scroll",
+      "passed": true
+    },
+    {
+      "name": "Default atmosphere animates, reduced-motion variant does not",
+      "passed": true
+    },
+    {
+      "name": "Downloaded file:// site loads every image without internet",
+      "passed": true
+    },
+    {
+      "name": "Self-hosted fonts work offline through file://",
+      "passed": true
+    },
+    {
+      "name": "Tabs work through file:// with network disabled",
+      "passed": true
+    },
+    {
+      "name": "Application can be prepared entirely offline",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript errors in offline mode",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Progressive enhancement: content visible without JavaScript",
+      "passed": true
+    },
+    {
+      "name": "Native FAQ works without JavaScript",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No HTTP errors or broken assets",
+      "passed": true
+    },
+    {
+      "name": "No unsolicited third-party requests",
+      "passed": true
+    },
+    {
+      "name": "No background form transmission",
+      "passed": true
+    }
+  ],
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "passed": true
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "passed": true
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "passed": true
+    },
+    {
+      "width": 560,
+      "height": 800,
+      "passed": true
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "passed": true
+    },
+    {
+      "width": 760,
+      "height": 900,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "passed": true
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "passed": true
+    },
+    {
+      "width": 980,
+      "height": 900,
+      "passed": true
+    },
+    {
+      "width": 981,
+      "height": 900,
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "browser": "153.0.8010.12",
+  "summary": {
+    "passed": 82,
+    "failed": 0,
+    "viewports": 15,
+    "accessibilityStates": 5
+  },
+  "distribution": {
+    "tests": [
+      {
+        "name": "Standalone: three local typefaces available with internet disabled",
+        "passed": true
+      },
+      {
+        "name": "Standalone: images, CSS and scripts are embedded",
+        "passed": true
+      },
+      {
+        "name": "Standalone: local section navigation works",
+        "passed": true
+      },
+      {
+        "name": "Scripts-only sandbox: anchors scroll locally rather than making a blocked navigation",
+        "passed": true
+      },
+      {
+        "name": "Scripts-only sandbox: the form really prepares the application",
+        "passed": true
+      },
+      {
+        "name": "Scripts-only sandbox: keyboard Enter also prepares the application",
+        "passed": true
+      },
+      {
+        "name": "No uncaught JavaScript errors in the distribution",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "passed": 7,
+      "failed": 0
+    }
+  }
+}

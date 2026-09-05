@@ -1,0 +1,18 @@
+{
+  "name": "kasta-feodalov-verification",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Необязательные проверки статического сайта. Для работы сайта зависимости не нужны.",
+  "scripts": {
+    "test": "node verify.cjs",
+    "test:release": "node verify-release.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "@axe-core/playwright": "4.13.0",
+    "html-validate": "10.17.0"
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 148" fill="none">
+  <title>Герб Касты Феодалов</title>
+  <g stroke="#c9a45c" stroke-linejoin="miter">
+    <path d="M60 8 75 15H107V68C107 100 90 121 60 139 30 121 13 100 13 68V15H45Z" stroke-width="1.7"/>
+    <path d="m60 16 13 7h26v45c0 28-14 46-39 62-25-16-39-34-39-62V23h26Z" stroke-width=".7" opacity=".7"/>
+    <path d="M33 86V48h8v8h8V36h8v9h6v-9h8v20h8v-8h8v38H33Z" stroke-width="2"/>
+    <path d="M31 91h58M47 85V61h26v24M54 85V74a6 6 0 0 1 12 0v11M37 65h4m-4 7h4m38-7h4m-4 7h4M57 53h6" stroke-width="1.8"/>
+    <path d="m60 102 2.6 5.5 6.1.8-4.4 4.3 1 6.1-5.3-2.9-5.3 2.9 1-6.1-4.4-4.3 6.1-.8Z" stroke-width=".8"/>
+    <path d="m3 35 4 16m106 0 4-16M7 63l3 19m100 0 3-19M14 96l9 15m74 0 9-15" stroke-width=".7" opacity=".65"/>
+  </g>
+</svg>
